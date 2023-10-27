@@ -19,3 +19,11 @@ torno sul SecondaryBranch e manca l'ultimo commit eseguito in
 main.
 eseguo un nuovo commit in SecondaryBranch. 
 
+ho avuto un idea e voglio provare a sviluppare il progetto
+diversamente quasi dal principio
+
+
+sposto l'head al third commit
+
+e creo un nuovo branch thirdBranch 
+primo commit questo testo
