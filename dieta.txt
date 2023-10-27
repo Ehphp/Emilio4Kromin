@@ -10,6 +10,12 @@ git add .
 git commit -m "Primo commit in SecondaryBranch"
 
 
+
 ho fatto un merge di tipo fast-forward
 
 faccio un altro commit 
+
+torno sul SecondaryBranch e manca l'ultimo commit eseguito in 
+main.
+eseguo un nuovo commit in SecondaryBranch. 
+
