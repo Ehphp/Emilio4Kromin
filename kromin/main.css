@@ -1,0 +1,22 @@
+.container {
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.lista li {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.lista li button {
+    float: right;
+}
