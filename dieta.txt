@@ -8,3 +8,8 @@ sono nel secondo branch
 e ora faccio un commit 
 git add .
 git commit -m "Primo commit in SecondaryBranch"
+
+
+ho fatto un merge di tipo fast-forward
+
+faccio un altro commit 
