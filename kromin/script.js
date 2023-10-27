@@ -1,19 +1,32 @@
-function aggiungiAttivita() {
-    const attivita = document.getElementById('input').value
+const input = document.querySelector('#input');
+const ul = document.querySelector('ul');
+const list = document.createElement('li')
 
-    const li = document.createElement('li')
+function aggiungAttivita() {
+    const list = document.createElement('li')
+    list.textContent = input.value;
+    list.style.backgroundColor = getRandomColor();
 
-    li.textContent = attivita
-
-    //  un bottone di cancellazione all'elemento li
-    const button = document.createElement('button')
-    button.textContent = 'Cancella'
-    button.addEventListener('click', function() {
-        li.remove()
+    list.addEventListener('click', () => {
+        ul.removeChild(list)
     })
-    li.appendChild(button)
-
-    document.getElementsByClassName('lista').appendChild(li)
+    ul.appendChild(list)
+    clenForm()
+    event.preventDefault();
+}
+function clenForm() {
+    if (input.value !== '') {
+        input.value = '';
+    }
 }
 
- document.getElementById("btn").addEventListener("submit", aggiungiAttivita);
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+const btn = document.getElementById('btn').addEventListener('click', aggiungAttivita);
