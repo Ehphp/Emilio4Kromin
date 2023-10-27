@@ -3,6 +3,13 @@ cacio
 cavallo
 
 insalata
+sono nel secondo branch 
+e ora faccio un commit 
+git add .
+git commit -m "Primo commit in SecondaryBranch"
 
+torno sul SecondaryBranch e manca l'ultimo commit eseguito in 
+main.
+eseguo un nuovo commit in SecondaryBranch. 
 ho interesse a merge con secondaryBranch
 dopo questo commit
