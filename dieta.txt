@@ -1,9 +1,11 @@
-cacio
 
+voglio cambiare l'inizio del main branch
+questo è migliore, commit e rebase
+
+cacio
 cavallo
 
-insalata 
-
+insalata
 sono nel secondo branch 
 e ora faccio un commit 
 git add .
@@ -24,6 +26,5 @@ diversamente quasi dal principio
 
 
 sposto l'head al third commit
-
-e creo un nuovo branch thirdBranch 
-primo commit questo testo
+quarta branch
+new commit
