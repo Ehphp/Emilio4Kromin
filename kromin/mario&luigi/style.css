@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sky{
+    height: 70vh;
+    background-color: aqua;
+}
+.strada{
+    height: 30vh;
+    overflow: hidden;
+    background-color: grey;
+}
+.stradaDx{
+    width: 100%;
+
+    height: 50%;
+    background-color: blueviolet;
+
+}
+.stradaSx{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(35, 187, 70);
+    border-bottom: dashed 5px rgb(255, 249, 249)   ;
+
+}
+.strada img{
+    height:  100%;
+    object-fit: cover;
+    
+}
+#luigi{
+  animation: mario-animation 2s  infinite  100ms forwards alternate;
+  animation-timing-function: cubic-bezier(0.730, 1.220, 0.815, 0.970);
+}
+    
+
+#mario{
+ 
+  animation: mario-animation 2000ms  infinite  forwards alternate;
+  animation-timing-function: cubic-bezier(0.730, 1.220, 0.815, 0.970);
+
+}
+
+
+@keyframes mario-animation {
+0% {
+transform: translateX(0vw) rotateY(0deg);
+}
+
+
+90%{
+transform: translateX(95vw) rotateY(170deg);
+
+}
+100% {
+transform: translateX(95vw) rotateY(180deg);
+}
+}
+
+
