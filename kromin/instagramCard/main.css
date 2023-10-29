@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding:0px;
+    color: white
+}
+body{
+    background-color: rgba(0, 0, 0, 0.268);
+}
+.container{
+    margin: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+
+
+
+}
+.user-card{
+    height: 7127,300px;
+    width: 630px;
+    background-color: rgb(0, 0, 0);
+    border:2px solid white;
+}
+.header-posts{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+
+}
+.user-image-container{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.user-image{
+    object-fit: cover;
+}
+.header-posts p{
+    margin-left: 15px;
+    color:rgb(19, 134, 234);
+    line-height: 46px}
+
+    .post-card img{
+        width: 100%;
+    }
+
+.post-author-div{
+    
+}
